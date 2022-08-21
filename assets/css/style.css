@@ -11,16 +11,16 @@ h2 {
   color: darkred;
 }
 
+ul {
+  padding: 0px;
+}
+
 h3,
 p,
 li {
   color: green;
   list-style-type: none;
   text-align: center;
-}
-
-ul {
-  padding: 0px;
 }
 
 img {
@@ -88,6 +88,10 @@ nav a:hover {
   margin: 10px;
 }
 
+.highlight {
+  color: rgb(90, 31, 145);
+}
+
 table {
   border: 3px solid black;
   width: 100%;
@@ -97,8 +101,4 @@ td,
 th {
   border: 1px solid black;
   padding: 5px;
-}
-
-.highlight {
-  color: rgb(90, 31, 145);
 }
