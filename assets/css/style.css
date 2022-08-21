@@ -15,6 +15,12 @@ h3,
 p,
 li {
   color: green;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul {
+  padding: 0px;
 }
 
 img {
@@ -64,6 +70,12 @@ nav a:hover {
   height: auto;
 }
 
+#holiday {
+  width: 100%;
+  padding: 25px;
+  background-color: aquamarine;
+}
+
 .service {
   display: inline-block;
   text-align: center;
@@ -85,4 +97,8 @@ td,
 th {
   border: 1px solid black;
   padding: 5px;
+}
+
+.highlight {
+  color: rgb(90, 31, 145);
 }
